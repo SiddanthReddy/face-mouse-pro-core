@@ -12,5 +12,4 @@ Changes to Face Mouse Pro Core are documented here.
 - Keep runtime dependencies limited to the Python standard library.
 - Declare the MIT License and include its notice in package metadata.
 
-This entry describes the current local preparation state. It is not a release
-announcement; no commit, tag, or publication has been made.
+The source is committed on `main` at `7ae514e29578f09a819ae4f5bb84218049e338e5`. This entry does not imply that a version tag or GitHub Release exists.
