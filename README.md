@@ -1,6 +1,6 @@
 # Face Mouse Pro Core
 
-**Version 0.1.0 · pre-release preparation**
+**Version 0.1.0 · published source revision (no tagged release yet)**
 
 Face Mouse Pro Core is a platform-independent Python engine shared by the
 Face Mouse Pro Windows and macOS applications. It contains reusable gesture,
@@ -49,7 +49,7 @@ cannot resolve a package revision yet. After an approved release tag exists,
 install the tagged revision with:
 
 ```sh
-python -m pip install "face-mouse-pro-core @ git+https://github.com/SiddanthReddy/face-mouse-pro-core.git@<approved-tag>"
+python -m pip install "face-mouse-pro-core @ git+https://github.com/SiddanthReddy/face-mouse-pro-core.git@7ae514e29578f09a819ae4f5bb84218049e338e5"
 ```
 
 Use an immutable approved tag or commit for reproducible application builds.
