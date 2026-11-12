@@ -2,7 +2,7 @@
 
 Changes to Face Mouse Pro Core are documented here.
 
-## 0.1.0 — prepared, not released
+## 0.1.0 — source published on main; no version tag or GitHub Release
 
 - Add deterministic gesture detection and EAR/MAR geometry helpers.
 - Add validated shared configuration and typed coordinate/event models.
