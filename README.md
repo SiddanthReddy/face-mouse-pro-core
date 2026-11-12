@@ -42,19 +42,17 @@ same environment before installing/running the Windows application:
 python -m pip install -e ..\face-mouse-pro-core
 ```
 
-### Install from Git after a core commit and tag are published
+### Install from the published Git commit
 
-The repository currently has no commit or release tag, so a Git installation
-cannot resolve a package revision yet. After an approved release tag exists,
-install the tagged revision with:
+The source is published on `main` at commit
+`7ae514e29578f09a819ae4f5bb84218049e338e5`. No version tag or GitHub Release
+has been published yet. Install the immutable source revision with:
 
 ```sh
 python -m pip install "face-mouse-pro-core @ git+https://github.com/SiddanthReddy/face-mouse-pro-core.git@7ae514e29578f09a819ae4f5bb84218049e338e5"
 ```
 
-Use an immutable approved tag or commit for reproducible application builds.
-The Windows CI currently checks out the core `main` branch and will remain
-unresolvable until that branch has a published commit.
+Use this immutable commit for reproducible application builds. The Windows app pins the same SHA in `requirements.txt` and its CI workflow.
 
 ## Quick example
 
@@ -119,7 +117,6 @@ repository's `docs/WINDOWS_CORE_INTEGRATION.md`.
 
 ## Release status and license
 
-Version `0.1.0` is prepared locally but has not been committed, tagged, or
-published. Face Mouse Pro Core is distributed under the MIT License; see
+Version `0.1.0` is present in the published source and package metadata. It has not yet been tagged or published as a GitHub Release. Face Mouse Pro Core is distributed under the MIT License; see
 [`LICENSE`](LICENSE). The copyright attribution follows the existing
 Face Mouse Pro application repository's license notice.
